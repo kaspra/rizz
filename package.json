@@ -1,0 +1,32 @@
+{
+  "name": "spark",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/progress": "^2.2.0",
+    "@nextui-org/react": "^2.2.9",
+    "d3-ease": "^3.0.1",
+    "firebase": "^10.5.2",
+    "framer-motion": "^10.16.4",
+    "next": "^14.0.0",
+    "next-share": "^0.27.0",
+    "react": "^18",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18",
+    "react-modal": "^3.16.1",
+    "react-move": "^6.5.0",
+    "react-responsive-modal": "^6.4.2",
+    "react-share": "^4.4.1",
+    "sweetalert2": "^11.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0"
+  }
+}

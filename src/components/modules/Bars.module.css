@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.bars {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bar {
+    width: 60px;
+    height: 20px;
+    border-radius: 12px;
+}
+
+.blue {
+    background-color: #47B2FF;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.completed {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 750px) {
+    .container{
+        margin-bottom: 1rem;
+    }
+}

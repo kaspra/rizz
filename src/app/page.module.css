@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.img_div{
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img_div_img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 4rem;
+    left: 6rem;
+    overflow: hidden;
+    width: 80%;
+    height: 90%;
+}
+
+.spark {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.link {
+    color: #fccc3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.header {
+    font-size: 140px;
+    max-width: 34rem;
+}
+
+.subscript {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 750px) {}
+
+/* button74 */
+.button74 {
+    background-color: #fccc3c;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    box-shadow: #f99c11 4px 4px 0 0;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    width: fit-content;
+    padding: 18px 40px 18px 40px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.button74:hover {
+    background-color: #f99c11;
+}
+
+.button74:active {
+    box-shadow: #000000 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media screen and (max-width: 750px) {
+    .img_div {
+        height: 100%;
+        /* width: 50%; */
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+    }
+    .img_div_img{
+        /* height: 50%; */
+        height: 100%;
+        width: 100%;
+    }
+
+    .top_text{
+        font-size: 20px;
+    }
+
+    .top_text img{
+        width: 10px;
+    }
+
+    .main_container {
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        padding-left: 1rem;
+        padding-top: 2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    .container{
+        height: 100%;
+    }
+
+    .page_p {
+        font-size: 80px;
+        padding-top: 2rem;
+        width: 90%;
+    }
+    .subscript{
+        margin-bottom: 0;
+    }
+
+    .page_text {
+        width: 90%;
+        font-size: 26px;
+        padding-top: 2rem;
+    }
+
+    .button74 {
+        font-size: 22px;
+        margin-top: 5rem;
+        padding: 18px 40px;
+
+    }
+}

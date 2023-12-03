@@ -1,0 +1,36 @@
+/* button74 */
+.button74 {
+    background-color: #fccc3c;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    box-shadow: #f99c11 4px 4px 0 0;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 550;
+    font-size: 16px;
+    padding: 18px 20px 18px 20px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button74:hover {
+    background-color: #f99c11;
+}
+
+.button74:active {
+    box-shadow: #000000 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media screen and (max-width: 750px) {
+    .button74{
+        padding: 10px 12px;
+    }
+}

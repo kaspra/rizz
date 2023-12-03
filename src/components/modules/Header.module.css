@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.header {
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+.subscript {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+    .container {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+}

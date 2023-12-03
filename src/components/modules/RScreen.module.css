@@ -1,0 +1,118 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 65rem;
+    gap: 60px;
+    padding: 20px;
+    padding-top: 40px;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+}
+
+.underline {
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.level {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.text {
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.red {
+    background-color: rgb(232, 43, 43);
+}
+
+.orange {
+    background-color: rgb(249, 116, 0);
+}
+
+.green {
+    background-color: rgb(229, 248, 83);
+}
+
+.blue {
+    background-color: rgb(12, 248, 16);
+}
+
+/* button74 */
+.button74 {
+    background-color: #fccc3c;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    box-shadow: #f99c11 4px 4px 0 0;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 550;
+    font-size: 16px;
+    padding: 18px 20px 18px 20px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button74:hover {
+    background-color: #f99c11;
+}
+
+.button74:active {
+    box-shadow: #000000 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media only screen and (max-width: 750px) {
+    .container {
+        flex-direction: column;
+        max-width: 90%;
+        padding: 0;
+        /* overflow: hidden; */
+    }
+    .main_cont{
+        width: 100%;
+    }
+    .level {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 22px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .underline {
+        /* font-size: 16px; */
+        width: 100%;
+    }
+    .button74{
+        padding: 10px 12px;
+    }
+}
